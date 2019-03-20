@@ -27,6 +27,7 @@ public class Health : MonoBehaviour
         if (isDead) return;
 
         isDead = true;
+        if(!GetComponent<Animator>()) return;
         GetComponent<Animator>().SetTrigger("die");
     }
 }
