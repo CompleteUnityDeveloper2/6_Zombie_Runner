@@ -28,13 +28,18 @@ public class Mover : MonoBehaviour
     {
         if (distance <= attackRange)
         {
+            GetComponent<Animator>().SetTrigger("move");
             navMeshAgent.SetDestination(target.position);
             if (distance <= navMeshAgent.stoppingDistance)
             {
-                
-                //AttackTarget();
+                AttackTarget();
             }
         }
+    }
+
+    private void AttackTarget()
+    {
+        GetComponent<Animator>().SetTrigger("attack");
     }
 
     private void FaceTarget()
