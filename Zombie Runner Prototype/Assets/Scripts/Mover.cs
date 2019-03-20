@@ -8,17 +8,22 @@ public class Mover : MonoBehaviour
 {
     [SerializeField] float attackRange = 5f;
     [SerializeField] Transform target;
-    
+
+    Health health;
+
     float turnSpeed = 5f;
 
     NavMeshAgent navMeshAgent;
     
     private void Start() {
         navMeshAgent = GetComponent<NavMeshAgent>();
+        health = GetComponent<Health>();
     }
     
     private void Update()
     {
+        if (health.IsDead()) return;
+        
         float distance = Vector3.Distance(target.position, transform.position);
         FaceTarget();
         MoveToAttack(distance);

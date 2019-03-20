@@ -15,4 +15,10 @@ public class Enemy : MonoBehaviour
         if (target == null) return;
         target.GetComponent<Health>().TakeDamage(damage);
     }
+
+    public void TimeToDie()
+    {
+        GetComponent<Animator>().SetTrigger("die");
+    }
+
 }
