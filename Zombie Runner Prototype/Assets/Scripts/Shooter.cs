@@ -21,7 +21,10 @@ public class Shooter : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(FPCamera.transform.position,FPCamera.transform.forward, out hit, range));
         {
-            Debug.Log("I shot the following: " + hit.transform.name);
+            Health target = hit.transform.GetComponent<Health>();
+            if (target == null) return;
+            target.TakeDamage(damage);
+            print("I hit: " + hit.transform.name + "for " + damage);
         }
     }
 }
