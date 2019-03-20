@@ -26,20 +26,24 @@ public class Mover : MonoBehaviour
 
     private void MoveToAttack(float distance)
     {
-        if (distance <= attackRange)
+        if (distance <= attackRange && distance >= navMeshAgent.stoppingDistance)
         {
+            // attack boolset to false to reset after we've been attacking
+            GetComponent<Animator>().SetBool("attack", false);
+            // using a trigger for move
             GetComponent<Animator>().SetTrigger("move");
             navMeshAgent.SetDestination(target.position);
-            if (distance <= navMeshAgent.stoppingDistance)
-            {
-                AttackTarget();
-            }
+        }
+        else if (distance <= navMeshAgent.stoppingDistance)
+        {
+            AttackTarget();
         }
     }
 
     private void AttackTarget()
     {
-        GetComponent<Animator>().SetTrigger("attack");
+        GetComponent<Animator>().SetBool("attackBool", true);
+        // add SFX and VFX here
     }
 
     private void FaceTarget()
