@@ -42,7 +42,7 @@ public class Mover : MonoBehaviour
 
     private void AttackTarget()
     {
-        GetComponent<Animator>().SetBool("attackBool", true);
+        GetComponent<Animator>().SetBool("attack", true);
         // add SFX and VFX here
     }
 
