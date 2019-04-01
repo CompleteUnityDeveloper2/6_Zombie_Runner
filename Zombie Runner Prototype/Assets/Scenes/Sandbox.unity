@@ -486,11 +486,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1671240166, guid: 366758fbb394d5649a6b423f51848e98, type: 3}
       propertyPath: m_SpotAngle
-      value: 83
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 1671240166, guid: 366758fbb394d5649a6b423f51848e98, type: 3}
       propertyPath: m_Intensity
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671240166, guid: 366758fbb394d5649a6b423f51848e98, type: 3}
+      propertyPath: m_Range
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 102286468964653605, guid: 366758fbb394d5649a6b423f51848e98,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 102286468964653605, guid: 366758fbb394d5649a6b423f51848e98,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 0.18039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 102286468964653605, guid: 366758fbb394d5649a6b423f51848e98,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 0.21931301
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 366758fbb394d5649a6b423f51848e98, type: 3}
