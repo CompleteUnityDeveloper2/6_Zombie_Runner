@@ -8,13 +8,13 @@ public class Mover : MonoBehaviour
 {
     [SerializeField] float attackRange = 5f;
     [SerializeField] Transform target;
-
-    Health health;
-
     float turnSpeed = 5f;
 
+    Health health;
     NavMeshAgent navMeshAgent;
-    
+    float distance = Mathf.Infinity;
+    [SerializeField] bool attackTarget = false;
+
     private void Start() {
         navMeshAgent = GetComponent<NavMeshAgent>();
         health = GetComponent<Health>();
@@ -23,26 +23,51 @@ public class Mover : MonoBehaviour
     private void Update()
     {
         if (health.IsDead()) return;
-        
-        float distance = Vector3.Distance(target.position, transform.position);
-        FaceTarget();
-        MoveToAttack(distance);
+        CalculateDistance();
+        CanSeeTarget();
+        AttackIfProvoked();
     }
 
-    private void MoveToAttack(float distance)
+    private void CalculateDistance()
     {
-        if (distance <= attackRange && distance >= navMeshAgent.stoppingDistance)
+        distance = Vector3.Distance(target.position, transform.position); 
+    }
+
+    public void BeenShot()
+    {
+        attackTarget = true;
+    }
+
+    private void CanSeeTarget()
+    {
+        if (distance <= attackRange)
         {
-            // attack boolset to false to reset after we've been attacking
-            GetComponent<Animator>().SetBool("attack", false);
-            // using a trigger for move
-            GetComponent<Animator>().SetTrigger("move");
-            navMeshAgent.SetDestination(target.position);
+            attackTarget = true;
         }
-        else if (distance <= navMeshAgent.stoppingDistance)
+    }
+
+    private void AttackIfProvoked()
+    {
+        if(attackTarget == false) { return; }
+        if (distance >= navMeshAgent.stoppingDistance)
+        {
+            ChaseTarget();
+        }
+
+        if (distance <= navMeshAgent.stoppingDistance)
         {
             AttackTarget();
         }
+    }
+
+    private void ChaseTarget()
+    {
+        FaceTarget();
+        // set this to false in case player moves out of range
+        GetComponent<Animator>().SetBool("attack", false);
+        // using a trigger for move
+        GetComponent<Animator>().SetTrigger("move");
+        navMeshAgent.SetDestination(target.position);
     }
 
     private void AttackTarget()

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Shooter : MonoBehaviour
@@ -8,7 +9,6 @@ public class Shooter : MonoBehaviour
     [SerializeField] float damage = 10f;
     [SerializeField] float range = 100f;
     [SerializeField] Camera FPCamera;
-    [SerializeField] ParticleSystem muzzleVFX;
     [SerializeField] GameObject hitImpactVFX;
 
     // Update is called once per frame
@@ -21,16 +21,26 @@ public class Shooter : MonoBehaviour
     }
     private void Shoot()
     {
-        muzzleVFX.Play();
-        
+        PlayMuzzleEffect();
+
         RaycastHit hit;
-        if (Physics.Raycast(FPCamera.transform.position,FPCamera.transform.forward, out hit, range));
+        if (Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward, out hit, range))
         {
             Health target = hit.transform.GetComponent<Health>();
             if (target == null) return;
             target.TakeDamage(damage);
             // print("I hit: " + hit.transform.name + "for " + damage);
             CreateHitImpact(hit);
+        }
+    }
+
+    private void PlayMuzzleEffect()
+    {
+        MuzzleFlash muzzleFlash = GetComponentInChildren<MuzzleFlash>();
+
+        if (muzzleFlash)
+        {
+            muzzleFlash.PlayMuzzleVFX();
         }
     }
 
