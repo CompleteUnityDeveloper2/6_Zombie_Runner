@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class GunPickup : MonoBehaviour
 {
-    [SerializeField] GameObject weaponPrefab;
+    [SerializeField] GameObject weapon;
     
     private void OnTriggerEnter(Collider other) 
     {
         if(other.gameObject.tag == "Player")
         {
             print("player entered me");
-            other.GetComponent<WeaponSystem>().PutWeaponInHand(weaponPrefab);
+            weapon.SetActive(true);
         }
     }
 }
