@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 2337074158999389510}
   - component: {fileID: 3412058378183045585}
   m_Layer: 0
-  m_Name: Weapon2
+  m_Name: CarbineWhite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -10,8 +10,8 @@ public class GunPickup : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            print("player entered me");
-            weapon.SetActive(true);
+            print("player entered me... the horror");
+            //GetComponent<WeaponSystem>().EquipWeapon(weapon);
         }
     }
 }
