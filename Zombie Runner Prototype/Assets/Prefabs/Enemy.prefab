@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf057f5ac500641807d10c5f2312a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1107469919, guid: 366758fbb394d5649a6b423f51848e98, type: 3}
+  target: {fileID: 0}
   damage: 10
   damageImpact: {fileID: 0}
 --- !u!114 &412994169003031713
@@ -170,7 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a42701c6321324cab7c00276c94839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 100
+  startingHitPoints: 100
+  currentHitPoints: 0
 --- !u!95 &412994169003031715
 Animator:
   serializedVersion: 3

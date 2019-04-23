@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] float hitPoints = 100f;
+    [SerializeField] float startingHitPoints = 100f;
 
     bool isDead = false;
+    // exposed so we can see that we are being hit
+    [SerializeField] float currentHitPoints;
+
+    private void Start() 
+    {
+        currentHitPoints = startingHitPoints;    
+    }
 
     public bool IsDead()
     {
@@ -15,8 +22,8 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        hitPoints -= damage;
-        if (hitPoints <= 0)
+        currentHitPoints -= damage;
+        if (currentHitPoints <= 0)
         {
             Die();
         }
