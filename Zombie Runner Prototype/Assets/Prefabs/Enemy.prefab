@@ -142,6 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackRange: 10
   target: {fileID: 0}
+  attackTarget: 0
 --- !u!114 &412994169003031714
 MonoBehaviour:
   m_ObjectHideFlags: 0
