@@ -5,8 +5,9 @@ using UnityEditor;
 using UnityEngine;
 
 // note: responsible for handling shooting and raycasting
+// rename weapon
 
-public class Shooter : MonoBehaviour
+public class Weapon : MonoBehaviour
 {
     [SerializeField] float damage = 10f;
     [SerializeField] float range = 100f;

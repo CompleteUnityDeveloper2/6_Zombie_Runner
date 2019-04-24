@@ -3,19 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // note: ammo is current on the individuals weapons. May be better stored in weapon system.
+// rename to weapon
+
+public enum AmmoType{Bullets, Shells, Rockets};
+
 
 public class Ammo : MonoBehaviour
 {
-    [SerializeField] int startingAmmo = 10;
+    [SerializeField] AmmoType ammoType;
+    [SerializeField] int currentAmmo = 10;
     
-    // exposed for testing
-    [SerializeField] int currentAmmo;
-    
-    void Start()
-    {
-        currentAmmo = startingAmmo;    
-    }
-
     public int GetCurrentAmmo()
     {
         return currentAmmo;

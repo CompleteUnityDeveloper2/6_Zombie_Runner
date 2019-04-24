@@ -5,7 +5,7 @@ using UnityEngine;
 
 // note: responsible for handling which weapon the player is wielding
 
-public class WeaponSystem : MonoBehaviour
+public class WeaponSwitcher : MonoBehaviour
 {
     [SerializeField] int currentWeapon = 0;
 
