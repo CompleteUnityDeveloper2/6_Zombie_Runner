@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GunPickup : MonoBehaviour
+public class AmmoPickup : MonoBehaviour
 {
-    [SerializeField] GameObject weapon;
+    [SerializeField] int ammoAmount = 5;
     
     private void OnTriggerEnter(Collider other) 
     {
         if(other.gameObject.tag == "Player")
         {
             print("player entered me... the horror");
-            //GetComponent<WeaponSystem>().EquipWeapon(weapon);
+            other.GetComponentInChildren<Ammo>().IncreaseAmmo(ammoAmount);
+            //TODO: play sound
+            Destroy(gameObject);
         }
     }
 }

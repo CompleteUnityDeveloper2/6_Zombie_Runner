@@ -80,7 +80,6 @@ GameObject:
   - component: {fileID: 1414249641236502812}
   - component: {fileID: 2739542715369104443}
   - component: {fileID: 3224976711165214534}
-  - component: {fileID: 7895070771774826748}
   - component: {fileID: 6596098839666678282}
   - component: {fileID: 150878348409975156}
   m_Layer: 0
@@ -150,19 +149,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &7895070771774826748
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670305088115782666}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &6596098839666678282
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -188,4 +174,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22b54003a09ceca439def5c2563e4ca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  batteryAmount: 2
+  addIntensity: 1
+  restoreAngle: 90
