@@ -19,10 +19,21 @@ public class Shooter : MonoBehaviour
             Shoot();
         }
     }
+    
     private void Shoot()
     {
-        PlayMuzzleEffect();
+        Ammo ammo = GetComponentInChildren<Ammo>();
+        
+        if(ammo.GetCurrentAmmo() > 0)
+        {
+            PlayMuzzleEffect();
+            ProcessRaycast();
+            ammo.ReduceAmmo();
+        }
+    }
 
+    private void ProcessRaycast()
+    {
         RaycastHit hit;
         if (Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward, out hit, range))
         {
