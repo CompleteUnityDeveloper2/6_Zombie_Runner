@@ -79,6 +79,7 @@ public class WeaponSystem : MonoBehaviour
     private void SetWeaponActive()
     {
         int weaponIndex = 0;
+ // go through all weapons, not all children... assumes weapon system is at right level
         foreach (Transform weapon in transform)
         {
             if (weaponIndex == currentWeapon)

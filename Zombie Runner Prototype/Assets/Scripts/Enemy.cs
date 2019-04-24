@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] Transform target;
     [SerializeField] float damage = 10f;
-    [SerializeField] Canvas damageImpact;
+    [SerializeField] DisplayDamage damageImpact;
 
     // add attack behaviour(s)
     // add SFX
@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     {
         if (target == null) return;
         target.GetComponent<Health>().TakeDamage(damage);
-        damageImpact.GetComponent<DisplayDamage>().ShowDamageImpact();
+        damageImpact.ShowDamageImpact();
     }
 
     // so the health system can let animator know when its time to die

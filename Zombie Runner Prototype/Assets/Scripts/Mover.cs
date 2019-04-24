@@ -10,14 +10,16 @@ public class Mover : MonoBehaviour
 {
     [SerializeField] float attackRange = 5f;
     [SerializeField] Transform target;
+    // serialize?
     float turnSpeed = 5f;
 
     Health health;
     NavMeshAgent navMeshAgent;
-    float distance = Mathf.Infinity;
+    float distanceToTarget = Mathf.Infinity;
     [SerializeField] bool attackTarget = false;
 
-    private void Start() {
+    private void Start() 
+    {
         navMeshAgent = GetComponent<NavMeshAgent>();
         health = GetComponent<Health>();
     }
@@ -32,7 +34,7 @@ public class Mover : MonoBehaviour
 
     private void CalculateDistance()
     {
-        distance = Vector3.Distance(target.position, transform.position); 
+        distanceToTarget = Vector3.Distance(target.position, transform.position); 
     }
 
     public void BeenShot()
@@ -42,7 +44,7 @@ public class Mover : MonoBehaviour
 
     private void CanSeeTarget()
     {
-        if (distance <= attackRange)
+        if (distanceToTarget <= attackRange)
         {
             attackTarget = true;
         }
@@ -51,12 +53,12 @@ public class Mover : MonoBehaviour
     private void AttackIfProvoked()
     {
         if(attackTarget == false) { return; }
-        if (distance >= navMeshAgent.stoppingDistance)
+        if (distanceToTarget >= navMeshAgent.stoppingDistance)
         {
             ChaseTarget();
         }
 
-        if (distance <= navMeshAgent.stoppingDistance)
+        if (distanceToTarget <= navMeshAgent.stoppingDistance)
         {
             AttackTarget();
         }

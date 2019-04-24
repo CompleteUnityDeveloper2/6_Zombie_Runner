@@ -6,10 +6,11 @@ using UnityEngine;
 
 public class FlashLightSystem : MonoBehaviour
 {
-    Light myLight;
     [SerializeField] float lightDecay = .1f;
     [SerializeField] float angleDecay = 1f;
     [SerializeField] float minimumAngle = 40f;
+
+    Light myLight;
 
     void Start()
     {

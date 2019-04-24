@@ -36,6 +36,8 @@ public class Health : MonoBehaviour
         if (isDead) return;
 
         isDead = true;
+        // comment on why protecting / checking
+        // create variable and only get once
         if(!GetComponent<Animator>()) return;
         GetComponent<Animator>().SetTrigger("die");
     }
