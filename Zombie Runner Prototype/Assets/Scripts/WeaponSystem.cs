@@ -3,10 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// note: responsible for handling which weapon the player is wielding
+
 public class WeaponSystem : MonoBehaviour
 {
     [SerializeField] int currentWeapon = 0;
-    
+
+    // experimenting with the weapon system knowing about weapon types and ammo
+    [SerializeField] GameObject weapon1;
+    [SerializeField] GameObject weapon2;
+    [SerializeField] GameObject weapon3;
+
     void Start ()
     {
         SetWeaponActive();

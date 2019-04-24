@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+// note: responsible for moving enemy, based upon navmesh and provokation
+
 public class Mover : MonoBehaviour
 {
     [SerializeField] float attackRange = 5f;

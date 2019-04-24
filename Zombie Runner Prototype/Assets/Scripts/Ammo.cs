@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// note: ammo is current on the individuals weapons. May be better stored in weapon system.
+
 public class Ammo : MonoBehaviour
 {
     [SerializeField] int startingAmmo = 10;

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// note: responsible for increasing and decreasing flashlight's effectiveness
+
 public class FlashLightSystem : MonoBehaviour
 {
     Light myLight;

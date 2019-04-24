@@ -502,6 +502,12 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &306722589 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6024100561231772774, guid: 366758fbb394d5649a6b423f51848e98,
+    type: 3}
+  m_PrefabInstance: {fileID: 1438546690}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &310333897
 Mesh:
   m_ObjectHideFlags: 0
@@ -15065,6 +15071,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2.2417235
       objectReference: {fileID: 0}
+    - target: {fileID: 3104000336798659550, guid: 366758fbb394d5649a6b423f51848e98,
+        type: 3}
+      propertyPath: weapon1
+      value: 
+      objectReference: {fileID: 306722589}
+    - target: {fileID: 3104000336798659550, guid: 366758fbb394d5649a6b423f51848e98,
+        type: 3}
+      propertyPath: weapon2
+      value: 
+      objectReference: {fileID: 1847217193}
+    - target: {fileID: 3104000336798659550, guid: 366758fbb394d5649a6b423f51848e98,
+        type: 3}
+      propertyPath: weapon3
+      value: 
+      objectReference: {fileID: 1582028616}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 366758fbb394d5649a6b423f51848e98, type: 3}
 --- !u!43 &1442344532
@@ -18388,6 +18409,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1051610735505074672, guid: c3569494f07539440b8a3690aeacc6ea,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1051610735505074672, guid: c3569494f07539440b8a3690aeacc6ea,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1051610735505074672, guid: c3569494f07539440b8a3690aeacc6ea,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3569494f07539440b8a3690aeacc6ea, type: 3}

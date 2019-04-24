@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// note: responsible for playing VFX when player shoots
+
 public class MuzzleFlash : MonoBehaviour
 {
     [SerializeField] ParticleSystem muzzleVFX;

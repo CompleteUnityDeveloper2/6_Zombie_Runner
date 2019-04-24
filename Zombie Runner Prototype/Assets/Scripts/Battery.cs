@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// note: responsible for improving the flashlight - brighter and bigger
+
 public class Battery : MonoBehaviour
 {
     [SerializeField] float addIntensity = 1f;
@@ -11,7 +13,7 @@ public class Battery : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            // good to show that we have proper collision first
+            // good to test first that we have proper collision working
             Debug.Log("Player collided with");
             other.GetComponentInChildren<FlashLightSystem>().AddLightIntensity(addIntensity);
             other.GetComponentInChildren<FlashLightSystem>().RestoreLightAngle(restoreAngle);

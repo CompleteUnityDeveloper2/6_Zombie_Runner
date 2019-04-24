@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// note: responsible for handling health - current, increasing, decreasing
+
 public class Health : MonoBehaviour
 {
     [SerializeField] float startingHitPoints = 100f;
 
     bool isDead = false;
-    // exposed so we can see that we are being hit
+    // exposed for debugging so we can see if we are being hit
     [SerializeField] float currentHitPoints;
 
     private void Start() 

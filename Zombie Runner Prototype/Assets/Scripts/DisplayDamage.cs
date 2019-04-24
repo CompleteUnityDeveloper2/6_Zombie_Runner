@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// note: responsible for displaying hit effects when player is damaged
+
 public class DisplayDamage : MonoBehaviour
 {
     [SerializeField] float splatterTime = 0.3f;   

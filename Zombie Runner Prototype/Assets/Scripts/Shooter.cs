@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+// note: responsible for handling shooting and raycasting
+
 public class Shooter : MonoBehaviour
 {
     [SerializeField] float damage = 10f;
