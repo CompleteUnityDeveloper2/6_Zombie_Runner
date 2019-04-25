@@ -9,11 +9,6 @@ public class WeaponSwitcher : MonoBehaviour
 {
     [SerializeField] int currentWeapon = 0;
 
-    // experimenting with the weapon system knowing about weapon types and ammo
-    [SerializeField] GameObject weapon1;
-    [SerializeField] GameObject weapon2;
-    [SerializeField] GameObject weapon3;
-
     void Start ()
     {
         SetWeaponActive();

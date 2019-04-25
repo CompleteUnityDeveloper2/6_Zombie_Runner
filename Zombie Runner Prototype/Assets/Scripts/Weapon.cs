@@ -14,6 +14,8 @@ public class Weapon : MonoBehaviour
     [SerializeField] Camera FPCamera;
     [SerializeField] GameObject hitImpactVFX;
 
+    [SerializeField] Ammo ammoSlot;  
+
     // Update is called once per frame
     void Update()
     {

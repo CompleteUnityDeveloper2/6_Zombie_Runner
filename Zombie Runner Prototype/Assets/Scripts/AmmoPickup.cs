@@ -7,7 +7,7 @@ using UnityEngine;
 public class AmmoPickup : MonoBehaviour
 {
     [SerializeField] int ammoAmount = 5;
-    [SerializeField] AmmoType ammoType;
+    [SerializeField] Ammo ammoSlot;
 
     private void OnTriggerEnter(Collider other) 
     {
