@@ -608,23 +608,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentWeapon: 1
---- !u!114 &1582028617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6080364824454048899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b24243bcc9036414fb88cadcaf2b981e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  FPCamera: {fileID: 0}
-  hitImpactVFX: {fileID: 0}
-  ammoSlot: {fileID: 5341549449817193396}
 --- !u!1 &8689183991389951610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,12 +1142,6 @@ PrefabInstance:
 --- !u!4 &6080364824453886115 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2337074158996965286, guid: 88967308e4033ea4e86b0f56ae5a1b2c,
-    type: 3}
-  m_PrefabInstance: {fileID: 8362972332592527109}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6080364824454048899 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2337074158997199750, guid: 88967308e4033ea4e86b0f56ae5a1b2c,
     type: 3}
   m_PrefabInstance: {fileID: 8362972332592527109}
   m_PrefabAsset: {fileID: 0}

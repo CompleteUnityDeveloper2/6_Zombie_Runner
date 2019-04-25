@@ -14,7 +14,7 @@ public class AmmoPickup : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             print("player entered me... the horror");
-            other.GetComponentInChildren<Ammo>().IncreaseAmmo(ammoAmount);
+            ammoSlot.IncreaseAmmo(ammoAmount);
             //TODO: play sound
             Destroy(gameObject);
         }

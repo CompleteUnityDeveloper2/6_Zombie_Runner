@@ -27,13 +27,11 @@ public class Weapon : MonoBehaviour
     
     private void Shoot()
     {
-        Ammo ammo = GetComponentInChildren<Ammo>();
-        
-        if(ammo.GetCurrentAmmo() > 0)
+        if(ammoSlot.GetCurrentAmmo() > 0)
         {
             PlayMuzzleEffect();
             ProcessRaycast();
-            ammo.ReduceAmmo();
+            ammoSlot.ReduceAmmo();
         }
     }
 
