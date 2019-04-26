@@ -25,6 +25,11 @@ public class Weapon : MonoBehaviour
         }
     }
     
+    public Ammo ReturnAmmoSlot()
+    {
+        return ammoSlot;
+    }
+
     private void Shoot()
     {
         if(ammoSlot.GetCurrentAmmo() > 0)

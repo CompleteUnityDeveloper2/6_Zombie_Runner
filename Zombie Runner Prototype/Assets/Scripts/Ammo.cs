@@ -27,6 +27,8 @@ public class Ammo : MonoBehaviour
         else
         {
             currentAmmo --;
+            FindObjectOfType<AmmoDisplay>().UpdateAmmoDisplay(currentAmmo);
+            print(currentAmmo);
         }
     }
 
