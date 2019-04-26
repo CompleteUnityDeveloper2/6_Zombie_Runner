@@ -9,7 +9,13 @@ using UnityEngine;
 public class Ammo : MonoBehaviour
 {
     [SerializeField] int currentAmmo = 10;
-    
+    AmmoDisplay ammoDisplay;
+
+    private void Start() 
+    {
+        ammoDisplay = FindObjectOfType<AmmoDisplay>();  
+    }
+
     public int GetCurrentAmmo()
     {
         return currentAmmo;
@@ -27,13 +33,13 @@ public class Ammo : MonoBehaviour
         else
         {
             currentAmmo --;
-            FindObjectOfType<AmmoDisplay>().UpdateAmmoDisplay(currentAmmo);
-            print(currentAmmo);
+            ammoDisplay.UpdateAmmoDisplay(currentAmmo);
         }
     }
 
     public void IncreaseAmmo(int ammoAmount)
     {
-        currentAmmo += ammoAmount;        
+        currentAmmo += ammoAmount;
+        ammoDisplay.UpdateAmmoDisplay(currentAmmo);
     }
 }
