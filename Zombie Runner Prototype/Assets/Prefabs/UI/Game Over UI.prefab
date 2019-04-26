@@ -360,7 +360,7 @@ MonoBehaviour:
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 0.5
+  m_padding: 0.865625
   m_canvasRenderer: {fileID: 2946719750693554729}
   m_TextComponent: {fileID: 8050754824050114174}
   m_materialReferenceIndex: 1
@@ -659,7 +659,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!114 &8183365244075289639
 MonoBehaviour:
