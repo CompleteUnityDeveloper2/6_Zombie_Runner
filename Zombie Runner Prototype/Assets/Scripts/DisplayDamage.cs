@@ -6,11 +6,12 @@ using UnityEngine;
 
 public class DisplayDamage : MonoBehaviour
 {
-    [SerializeField] float splatterTime = 0.3f;   
+    [SerializeField] float splatterTime = 0.3f;
+    [SerializeField] Canvas impactCanvas;   
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Canvas>().enabled = false; 
+        impactCanvas.enabled = false; 
     }
 
     public void ShowDamageImpact()
@@ -20,8 +21,8 @@ public class DisplayDamage : MonoBehaviour
     
     IEnumerator ShowSplatter()
     {
-        GetComponent<Canvas>().enabled = true;
+        impactCanvas.enabled = true;
         yield return new WaitForSeconds(splatterTime);
-        GetComponent<Canvas>().enabled = false;
+        impactCanvas.enabled = false;
     }
 }

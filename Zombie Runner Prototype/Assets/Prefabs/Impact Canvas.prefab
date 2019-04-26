@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8983879186924108004}
   - component: {fileID: 8983879186924108005}
   - component: {fileID: 8983879186924108006}
-  - component: {fileID: 8983879186924108007}
   m_Layer: 5
   m_Name: Impact Canvas
   m_TagString: Untagged
@@ -100,19 +99,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8983879186924108007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8983879186924107928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31f5c483e3783b047990009901bbdc74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  splatterTime: 0.5
 --- !u!1 &8983879188614162458
 GameObject:
   m_ObjectHideFlags: 0

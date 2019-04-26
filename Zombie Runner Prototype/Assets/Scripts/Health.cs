@@ -31,14 +31,41 @@ public class Health : MonoBehaviour
         }
     }
 
+    // added so we can check if the player is dead or not
+    public float ReturnCurrentHealth()
+    {
+        return currentHitPoints;
+    }
+
     private void Die()
     {
         if (isDead) return;
-
         isDead = true;
-        // comment on why protecting / checking
-        // create variable and only get once
-        if(!GetComponent<Animator>()) return;
-        GetComponent<Animator>().SetTrigger("die");
+
+        if (GetComponent<Enemy>())
+        {        
+            // comment on why protecting / checking
+            // create variable and only get once
+            Animator animator = GetComponent<Animator>();
+            if(!animator) 
+            {
+                Debug.LogError("Looks like the thing you killed has no animator");
+                return;
+            }
+            else
+            {
+                animator.SetTrigger("die");
+            }
+            
+        }
+        
+        else if (GetComponent<Player>())
+        {
+            GetComponent<DeathHandler>().HandleDeath();
+        }
+        else
+        {
+            Debug.LogError("Something died that is an missing Enemy or Player component");
+        }
     }
 }
