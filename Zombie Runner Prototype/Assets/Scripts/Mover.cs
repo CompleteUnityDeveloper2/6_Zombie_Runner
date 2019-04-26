@@ -10,49 +10,49 @@ public class Mover : MonoBehaviour
 {
     [SerializeField] float attackRange = 5f;
     [SerializeField] Transform target;
-    // serialize?
-    float turnSpeed = 5f;
+    [SerializeField] float turnSpeed = 5f;
 
-    Health health;
+    EnemyHealth health;
     NavMeshAgent navMeshAgent;
+
     float distanceToTarget = Mathf.Infinity;
-    [SerializeField] bool attackTarget = false;
+    bool isProvoked = false;
 
     private void Start() 
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
-        health = GetComponent<Health>();
+        health = GetComponent<EnemyHealth>();
     }
     
     private void Update()
     {
         if (health.IsDead()) return;
-        CalculateDistance();
-        CanSeeTarget();
-        AttackIfProvoked();
-    }
+        distanceToTarget = Vector3.Distance(target.position, transform.position);
 
-    private void CalculateDistance()
-    {
-        distanceToTarget = Vector3.Distance(target.position, transform.position); 
+        if(isProvoked)
+        {
+            EngageTarget();
+            return;
+        }
+        
+        CanSeeTarget();
     }
 
     public void BeenShot()
-    {
-        attackTarget = true;
+    { 
+        isProvoked = true;
     }
 
     private void CanSeeTarget()
     {
         if (distanceToTarget <= attackRange)
         {
-            attackTarget = true;
+            isProvoked = true;
         }
     }
 
-    private void AttackIfProvoked()
+    private void EngageTarget()
     {
-        if(attackTarget == false) { return; }
         if (distanceToTarget >= navMeshAgent.stoppingDistance)
         {
             ChaseTarget();
