@@ -17479,6 +17479,11 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 855951042706720176}
+    - target: {fileID: 2337074158710820783, guid: 366758fbb394d5649a6b423f51848e98,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1107469920, guid: 366758fbb394d5649a6b423f51848e98, type: 3}
       propertyPath: startingHitPoints
       value: 20

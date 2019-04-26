@@ -182,7 +182,6 @@ GameObject:
   - component: {fileID: 1107469917}
   - component: {fileID: 1107469916}
   - component: {fileID: 1107469920}
-  - component: {fileID: 927541537054579894}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -318,24 +317,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHitPoints: 100
   currentHitPoints: 0
---- !u!114 &927541537054579894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1107469915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b24243bcc9036414fb88cadcaf2b981e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  FPCamera: {fileID: 1079756946}
-  hitImpactVFX: {fileID: 6765343681684199234, guid: 80c69c65a69723c4f88a73b134796d73,
-    type: 3}
-  ammoSlot: {fileID: 0}
 --- !u!1 &1200352104
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,15 +767,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
---- !u!1 &2337074158710820783 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2337074158997199750, guid: ada2587319194f542957a8c2ae277cb9,
-    type: 3}
-  m_PrefabInstance: {fileID: 393335849}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2337074158710789007 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9,
+    type: 3}
+  m_PrefabInstance: {fileID: 393335849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2337074158710820783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2337074158997199750, guid: ada2587319194f542957a8c2ae277cb9,
     type: 3}
   m_PrefabInstance: {fileID: 393335849}
   m_PrefabAsset: {fileID: 0}
@@ -1127,16 +1108,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3412058378183045585, guid: 88967308e4033ea4e86b0f56ae5a1b2c,
-        type: 3}
-      propertyPath: muzzleVFX
-      value: 
-      objectReference: {fileID: 3614249444177812632}
     - target: {fileID: 6640460176724100996, guid: 88967308e4033ea4e86b0f56ae5a1b2c,
         type: 3}
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3412058378183045585, guid: 88967308e4033ea4e86b0f56ae5a1b2c,
+        type: 3}
+      propertyPath: muzzleVFX
+      value: 
+      objectReference: {fileID: 3614249444177812632}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88967308e4033ea4e86b0f56ae5a1b2c, type: 3}
 --- !u!4 &6080364824453886115 stripped
