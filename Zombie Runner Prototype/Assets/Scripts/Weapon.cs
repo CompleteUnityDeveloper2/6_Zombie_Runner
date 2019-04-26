@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 
@@ -14,17 +15,25 @@ public class Weapon : MonoBehaviour
     [SerializeField] Camera FPCamera;
     [SerializeField] GameObject hitImpactVFX;
 
-    [SerializeField] Ammo ammoSlot;  
+    [SerializeField] Ammo ammoSlot;
+    [SerializeField] TextMeshProUGUI ammoText;
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
         }
+        DisplayAmmo();
     }
-    
+
+    private void DisplayAmmo()
+    {
+        int currentAmmo = ammoSlot.GetCurrentAmmo();
+        ammoText.text = currentAmmo.ToString();
+    }
+
     public Ammo ReturnAmmoSlot()
     {
         return ammoSlot;

@@ -17,7 +17,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        GetComponent<Mover>().BeenShot();
+        GetComponent<Mover>().SetProvoked();
         hitPoints -= damage;
         if (hitPoints <= 0)
         {

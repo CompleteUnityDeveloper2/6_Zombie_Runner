@@ -16,39 +16,32 @@ public class Mover : MonoBehaviour
     NavMeshAgent navMeshAgent;
 
     float distanceToTarget = Mathf.Infinity;
-    bool isProvoked = false;
+    bool isProvoked = false;  
 
     private void Start() 
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
-        health = GetComponent<EnemyHealth>();
+        health = GetComponent<EnemyHealth>();  // cached because used in update
     }
     
     private void Update()
     {
-        if (health.IsDead()) return;
+        if (health.IsDead()) return;  // could disable this component
         distanceToTarget = Vector3.Distance(target.position, transform.position);
-
+        
         if(isProvoked)
         {
             EngageTarget();
-            return;
         }
-        
-        CanSeeTarget();
-    }
-
-    public void BeenShot()
-    { 
-        isProvoked = true;
-    }
-
-    private void CanSeeTarget()
-    {
-        if (distanceToTarget <= attackRange)
+        else if (distanceToTarget <= attackRange)
         {
             isProvoked = true;
         }
+    }
+
+    public void SetProvoked()
+    { 
+        isProvoked = true;
     }
 
     private void EngageTarget()

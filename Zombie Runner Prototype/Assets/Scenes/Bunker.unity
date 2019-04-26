@@ -1545,7 +1545,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1438546690}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &613277760
+--- !u!114 &613277762
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1557,7 +1557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca617c111424b4a408f18cdeb23fe695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 40201469}
+  ammoText: {fileID: 40201469}
 --- !u!1 &614750624
 GameObject:
   m_ObjectHideFlags: 0
@@ -17360,6 +17360,11 @@ PrefabInstance:
       propertyPath: range
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 2596158850591731192, guid: 366758fbb394d5649a6b423f51848e98,
+        type: 3}
+      propertyPath: ammoText
+      value: 
+      objectReference: {fileID: 40201469}
     - target: {fileID: 6531298770490381062, guid: 366758fbb394d5649a6b423f51848e98,
         type: 3}
       propertyPath: m_Name
@@ -17436,6 +17441,11 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 855951042706720176}
+    - target: {fileID: 3081999877318300285, guid: 366758fbb394d5649a6b423f51848e98,
+        type: 3}
+      propertyPath: ammoText
+      value: 
+      objectReference: {fileID: 40201469}
     - target: {fileID: 6880961967303773536, guid: 366758fbb394d5649a6b423f51848e98,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -17522,6 +17532,11 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 855951042706720176}
+    - target: {fileID: 3393661727077191739, guid: 366758fbb394d5649a6b423f51848e98,
+        type: 3}
+      propertyPath: ammoText
+      value: 
+      objectReference: {fileID: 40201469}
     - target: {fileID: 2337074158710820783, guid: 366758fbb394d5649a6b423f51848e98,
         type: 3}
       propertyPath: m_IsActive
@@ -17529,6 +17544,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1107469920, guid: 366758fbb394d5649a6b423f51848e98, type: 3}
       propertyPath: startingHitPoints
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8384028058272769235, guid: 366758fbb394d5649a6b423f51848e98,
+        type: 3}
+      propertyPath: hitPoints
       value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -21325,6 +21345,7 @@ MonoBehaviour:
   hitImpactVFX: {fileID: 6765343681684199234, guid: 80c69c65a69723c4f88a73b134796d73,
     type: 3}
   ammoSlot: {fileID: 99966302}
+  ammoText: {fileID: 40201469}
 --- !u!1001 &2517382359918465286
 PrefabInstance:
   m_ObjectHideFlags: 0
