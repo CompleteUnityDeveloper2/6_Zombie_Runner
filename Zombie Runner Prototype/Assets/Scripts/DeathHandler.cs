@@ -16,7 +16,7 @@ public class DeathHandler : MonoBehaviour
     {
         youDiedCanvas.enabled = true;
         Time.timeScale = 0;
-
+        FindObjectOfType<Weapon>().enabled = false;
         // give cursor control back to the player
         // (note: remember to put UI layer to high sort mode)
         Cursor.lockState = CursorLockMode.None;
