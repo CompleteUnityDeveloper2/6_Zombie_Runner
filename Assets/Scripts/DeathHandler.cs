@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class DeathHandler : MonoBehaviour
 {
-    [SerializeField] Canvas youDiedCanvas;
+    [SerializeField] Canvas youDiedCanvas; // Have to make this reference in each scene?
 
     void Start()
     {

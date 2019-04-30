@@ -7,7 +7,7 @@ using UnityEngine;
 public class AmmoPickup : MonoBehaviour
 {
     [SerializeField] int ammoAmount = 5;
-    [SerializeField] Ammo ammoSlot;
+    [SerializeField] Ammo ammoSlot; //This won't scale past one scene
 
     private void OnTriggerEnter(Collider other) 
     {

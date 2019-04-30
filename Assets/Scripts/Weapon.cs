@@ -25,7 +25,7 @@ public class Weapon : MonoBehaviour
         {
             Shoot();
         }
-        DisplayAmmo();
+        DisplayAmmo(); // Probably better in a seperate script
     }
 
     private void DisplayAmmo()
@@ -34,7 +34,7 @@ public class Weapon : MonoBehaviour
         ammoText.text = currentAmmo.ToString();
     }
 
-    public Ammo ReturnAmmoSlot()
+    public Ammo AmmoSlot()
     {
         return ammoSlot;
     }

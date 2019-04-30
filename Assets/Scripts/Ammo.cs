@@ -10,6 +10,8 @@ public class Ammo : MonoBehaviour
 {
     [SerializeField] int currentAmmo = 10;
 
+    // Array of currentAmmo by enum
+
     public int GetCurrentAmmo()
     {
         return currentAmmo;
