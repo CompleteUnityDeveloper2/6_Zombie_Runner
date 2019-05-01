@@ -16,6 +16,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] GameObject hitImpactVFX;
 
     [SerializeField] Ammo ammoSlot;
+    [SerializeField] AmmoType ammoType;
     [SerializeField] TextMeshProUGUI ammoText;
 
     // Update is called once per frame
@@ -30,7 +31,7 @@ public class Weapon : MonoBehaviour
 
     private void DisplayAmmo()
     {
-        int currentAmmo = ammoSlot.GetCurrentAmmo();
+        int currentAmmo = ammoSlot.GetCurrentAmmo(ammoType);
         ammoText.text = currentAmmo.ToString();
     }
 
@@ -41,11 +42,11 @@ public class Weapon : MonoBehaviour
 
     private void Shoot()
     {
-        if(ammoSlot.GetCurrentAmmo() > 0)
+        if(ammoSlot.GetCurrentAmmo(ammoType) > 0)
         {
             PlayMuzzleEffect();
             ProcessRaycast();
-            ammoSlot.ReduceAmmo();
+            ammoSlot.ReduceAmmo(ammoType);
         }
     }
 

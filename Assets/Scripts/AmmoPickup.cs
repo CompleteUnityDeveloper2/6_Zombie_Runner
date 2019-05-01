@@ -7,14 +7,14 @@ using UnityEngine;
 public class AmmoPickup : MonoBehaviour
 {
     [SerializeField] int ammoAmount = 5;
-    [SerializeField] Ammo ammoSlot; //This won't scale past one scene
+    [SerializeField] AmmoType ammoType; //This won't scale past one scene
 
     private void OnTriggerEnter(Collider other) 
     {
         if(other.gameObject.tag == "Player")
         {
             print("player entered me... the horror");
-            ammoSlot.IncreaseAmmo(ammoAmount);
+            FindObjectOfType<Ammo>().IncreaseAmmo(ammoType, ammoAmount);
             //TODO: play sound
             Destroy(gameObject);
         }

@@ -8,18 +8,16 @@ using UnityEngine;
 
 public class Ammo : MonoBehaviour
 {
-    [SerializeField] int currentAmmo = 10;
+    [SerializeField] int[] currentAmmo = {10, 0, 0};
 
-    // Array of currentAmmo by enum
-
-    public int GetCurrentAmmo()
+    public int GetCurrentAmmo(AmmoType type)
     {
-        return currentAmmo;
+        return currentAmmo[(int)type];
     }
 
-    public void ReduceAmmo()
+    public void ReduceAmmo(AmmoType type)
     {
-        if (currentAmmo <= 0)
+        if (GetCurrentAmmo(type) <= 0)
         {
             Debug.Log("Out of Ammo");
             // Play the 'no ammo' sound
@@ -28,12 +26,12 @@ public class Ammo : MonoBehaviour
         }
         else
         {
-            currentAmmo --;
+            currentAmmo[(int)type] --;
         }
     }
 
-    public void IncreaseAmmo(int ammoAmount)
+    public void IncreaseAmmo(AmmoType type, int ammoAmount)
     {
-        currentAmmo += ammoAmount;
+        currentAmmo[(int)type] += ammoAmount;
     }
 }

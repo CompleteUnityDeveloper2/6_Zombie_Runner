@@ -348,6 +348,8 @@ MonoBehaviour:
   FPCamera: {fileID: 0}
   hitImpactVFX: {fileID: 0}
   ammoSlot: {fileID: 0}
+  ammoType: 1
+  ammoText: {fileID: 0}
 --- !u!1 &2337074158997199752
 GameObject:
   m_ObjectHideFlags: 0
