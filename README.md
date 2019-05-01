@@ -34,7 +34,7 @@ Ready and raring to start this section.
 
 **In this video (objectives)...**
 
-1. Discussion of game overview screen and core features.
+1. Discussion of the game overview screen and core features.
 2. Reminder that we're using Unity 2019.1.
 
 **After watching (learning outcomes)...**
