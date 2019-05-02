@@ -39,7 +39,7 @@ public class Mover : MonoBehaviour
         }
     }
 
-    public void SetProvoked()
+    public void OnDamageTaken(float damage)
     { 
         isProvoked = true;
     }

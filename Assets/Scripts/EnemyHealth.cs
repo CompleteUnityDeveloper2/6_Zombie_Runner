@@ -17,7 +17,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        GetComponent<Mover>().SetProvoked();
+        BroadcastMessage("OnDamageTaken", damage);
         hitPoints -= damage;
         if (hitPoints <= 0)
         {
