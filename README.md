@@ -40,3 +40,37 @@ Ready and raring to start this section.
 **After watching (learning outcomes)...**
 
 Super clear on the game we are making and the feature priorities.
+
+### 3 Adding First Person Controller ###
+
+**In this video (objectives)...**
+
+1. Download Unity Standard Assets.
+2. Implement the First Person Controller with RigidBody.
+
+**After watching (learning outcomes)...**
+
+Get and add the First Person Controller to our scene.
+
+### 4 Make A Prototyping Sandbox ###
+
+**In this video (objectives)...**
+
+1. Use Unity's simple prototyping geometry to make a simple level.
+2. Make sure there are different obstacles to test the expected functionality in the game.
+
+**After watching (learning outcomes)...**
+
+Create a simple sandbox level for prototyping.
+
+### 5 Using NavMeshAgent For AI ###
+
+**In this video (objectives)...**
+
+1. Add a placeholder enemy with NavMeshAgent component.
+2. Bake our NavMesh.
+3. Create EnemyAI.cs and add logic to move the enemy towards the player.
+
+**After watching (learning outcomes)...**
+
+Use the NavMeshAgent component to drive the enemy towards the player.
