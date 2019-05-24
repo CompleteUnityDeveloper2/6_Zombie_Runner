@@ -74,3 +74,15 @@ Create a simple sandbox level for prototyping.
 **After watching (learning outcomes)...**
 
 Use the NavMeshAgent component to drive the enemy towards the player.
+
+
+### 6 Getting Stuck & Jittering ###
+
+**In this video (objectives)...**
+
+1. Fix jitter by removing head bob.
+2. Stop player getting stuck on walls by adding a physics material.
+
+**After watching (learning outcomes)...**
+
+Fix some issues with our first person controller.
