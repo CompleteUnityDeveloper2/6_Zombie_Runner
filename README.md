@@ -99,3 +99,13 @@ Fix some issues with our first person controller.
 
 Move the enemy to the target if the target is within range.
 
+
+### 8 Using OnDrawGizmosSelected() ###
+
+**In this video (objectives)...**
+
+1. Use the Unity docs to figure out how to draw a gizmo which shows the chase range of our enemies.
+
+**After watching (learning outcomes)...**
+
+Use gizmos to visualise chase range.
