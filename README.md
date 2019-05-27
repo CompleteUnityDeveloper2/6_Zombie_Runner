@@ -86,3 +86,16 @@ Use the NavMeshAgent component to drive the enemy towards the player.
 **After watching (learning outcomes)...**
 
 Fix some issues with our first person controller.
+
+
+### 7 Enemy AI - Chase Range ###
+
+**In this video (objectives)...**
+
+1. Make the enemy and player more obvious in their positions.
+2. Create logic that tells the enemy to move to the target if the target is within the chase range.
+
+**After watching (learning outcomes)...**
+
+Move the enemy to the target if the target is within range.
+
