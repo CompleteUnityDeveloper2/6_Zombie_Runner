@@ -109,3 +109,15 @@ Move the enemy to the target if the target is within range.
 **After watching (learning outcomes)...**
 
 Use gizmos to visualise chase range.
+
+
+### 9 Enemy AI - Attack If Provoked ###
+
+**In this video (objectives)...**
+
+1. Structure our EnemyAI class so we have logic for the enemy being provoked.
+2. Use the nav mesh stopping distance as part of our conditions for attacking or not.
+
+**After watching (learning outcomes)...**
+
+Add to our enemy AI, causing it to attack if provoked.
