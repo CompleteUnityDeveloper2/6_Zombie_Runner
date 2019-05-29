@@ -121,3 +121,15 @@ Use gizmos to visualise chase range.
 **After watching (learning outcomes)...**
 
 Add to our enemy AI, causing it to attack if provoked.
+
+
+### 10 Give That Player A Gun ###
+
+**In this video (objectives)...**
+
+1. Import a weapon and attach it to the player.
+2. Add a reticle the the UI canvas.
+
+**After watching (learning outcomes)...**
+
+Give the player a weapon asset.
