@@ -133,3 +133,16 @@ Add to our enemy AI, causing it to attack if provoked.
 **After watching (learning outcomes)...**
 
 Give the player a weapon asset.
+
+
+### 11 Introduction To Raycasting ###
+
+**In this video (objectives)...**
+
+1. Overview of how Raycasting works.
+2. Add a ray that is cast when the player clicks their shoots (clicks their mouse button).
+3. Print to the console the thing that we hit.
+
+**After watching (learning outcomes)...**
+
+Implement raycasting so we can shoot an invisible laser beam.
