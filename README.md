@@ -146,3 +146,15 @@ Give the player a weapon asset.
 **After watching (learning outcomes)...**
 
 Implement raycasting so we can shoot an invisible laser beam.
+
+
+### 12 Enemy Health & Damage ###
+
+**In this video (objectives)...**
+
+1. Create a public method that reduces enemy's health.
+2. Call that method from our weapon and pass in the weapon's specific damage amount.
+
+**After watching (learning outcomes)...**
+
+Lay some smack down on an enemy (well, decrease its hit points).
