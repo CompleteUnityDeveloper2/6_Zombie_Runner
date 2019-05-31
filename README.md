@@ -170,3 +170,15 @@ Lay some smack down on an enemy (well, decrease its hit points).
 **After watching (learning outcomes)...**
 
 Create a muzzle flash particle effect and play it when the player shoots.
+
+
+### 14 Creating Shooting Hit Effect ###
+
+**In this video (objectives)...**
+
+1. Twiddle with one of the standard assets particle effects to get something we like.
+2. Instantiate the hit impact at the point the raycast hits.
+
+**After watching (learning outcomes)...**
+
+Instantiate a hit effect when we shoot something.
