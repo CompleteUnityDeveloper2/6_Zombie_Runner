@@ -158,3 +158,15 @@ Implement raycasting so we can shoot an invisible laser beam.
 **After watching (learning outcomes)...**
 
 Lay some smack down on an enemy (well, decrease its hit points).
+
+
+### 13 Implement A Muzzle Flash ###
+
+**In this video (objectives)...**
+
+1. Create simple code to play our muzzle flash.
+2. Create a particle system that looks somewhat like a muzzle flash.
+
+**After watching (learning outcomes)...**
+
+Create a muzzle flash particle effect and play it when the player shoots.
