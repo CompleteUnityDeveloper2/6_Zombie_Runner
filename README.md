@@ -182,3 +182,27 @@ Create a muzzle flash particle effect and play it when the player shoots.
 **After watching (learning outcomes)...**
 
 Instantiate a hit effect when we shoot something.
+
+
+### 15 Introducing Animator Controller ###
+
+**In this video (objectives)...**
+
+1. Discuss animation states.
+2. Set up a simple flow from Idle to Move to Attack.
+
+**After watching (learning outcomes)...**
+
+Understand the basics of how Animator Controllers work.
+
+
+### 16 Creating A Simple Animation ###
+
+**In this video (objectives)...**
+
+1. Create a new animation that we add to idle state.
+2. Understand that we can animate properties such as the transform of an object.
+
+**After watching (learning outcomes)...**
+
+Understand how to add simple animations to our animator controller states.
