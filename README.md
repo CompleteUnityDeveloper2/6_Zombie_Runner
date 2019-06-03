@@ -206,3 +206,15 @@ Understand the basics of how Animator Controllers work.
 **After watching (learning outcomes)...**
 
 Understand how to add simple animations to our animator controller states.
+
+
+### 17 Animator Transition Conditions ###
+
+**In this video (objectives)...**
+
+1. Set up a trigger and a bool parameter.
+2. Cycle through our states by trigging our transition conditions.
+
+**After watching (learning outcomes)...**
+
+Understand how to trigger different states based upon parameter conditions being met.
