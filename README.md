@@ -254,3 +254,15 @@ Use animation events to create precise attack moments.
 **After watching (learning outcomes)...**
 
 Complete our loop where the enemy can hit and damage the player.
+
+
+### 21 Rotate To Face Target ###
+
+**In this video (objectives)...**
+
+1. Discuss briefly how Vectors work.
+2. Rotate the enemy to face the player by using Quaternion.Slerp().
+
+**After watching (learning outcomes)...**
+
+Be clear on how to rotate an object so that it is facing another moving object.
