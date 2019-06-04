@@ -218,3 +218,39 @@ Understand how to add simple animations to our animator controller states.
 **After watching (learning outcomes)...**
 
 Understand how to trigger different states based upon parameter conditions being met.
+
+
+### 18 Trigger Animation In Code ###
+
+**In this video (objectives)...**
+
+1. Add code to trigger move state.
+2. Implement attack state bool to set to true or false depending upon enemy AI logic.
+
+**After watching (learning outcomes)...**
+
+Understand how to use code to trigger animation state changes.
+
+
+### 19 Use Animation Events ###
+
+**In this video (objectives)...**
+
+1. Create EnemyAttack.cs and create a public method that can be called as an animation event.
+2. Create simple animation for attack and add an animation event which calls our attack code.
+
+**After watching (learning outcomes)...**
+
+Use animation events to create precise attack moments.
+
+
+### 20 Create Player Health Class ###
+
+**In this video (objectives)...**
+
+1. Nifty challenge where you get to chose your difficulty level.
+2. Have the enemy damage the player.
+
+**After watching (learning outcomes)...**
+
+Complete our loop where the enemy can hit and damage the player.
