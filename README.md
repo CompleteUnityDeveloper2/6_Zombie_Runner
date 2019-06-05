@@ -266,3 +266,15 @@ Complete our loop where the enemy can hit and damage the player.
 **After watching (learning outcomes)...**
 
 Be clear on how to rotate an object so that it is facing another moving object.
+
+
+### 22 Game Over User Interface ###
+
+**In this video (objectives)...**
+
+1. Create a Game Over canvas with buttons to reload game and quit.
+2. Create a class which contains the methods with the functionality for our buttons.
+
+**After watching (learning outcomes)...**
+
+Create a simple game over menu to ensure we can restart the game when the player dies.
