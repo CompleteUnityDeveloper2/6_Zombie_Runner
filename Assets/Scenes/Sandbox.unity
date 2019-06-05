@@ -349,6 +349,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1766814854480755888, guid: c0afdbdb1803a3242974df91a270faed,
         type: 3}
+    - target: {fileID: 1869670054142922472, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: gameOverCanvas
+      value: 
+      objectReference: {fileID: 100157821}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!20 &44375165 stripped

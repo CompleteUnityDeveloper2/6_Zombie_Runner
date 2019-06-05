@@ -278,3 +278,16 @@ Be clear on how to rotate an object so that it is facing another moving object.
 **After watching (learning outcomes)...**
 
 Create a simple game over menu to ensure we can restart the game when the player dies.
+
+
+### 23 Create A Death Handler ###
+
+**In this video (objectives)...**
+
+1. Disable and enable our game over menu screen.
+2. Give the cursor back to the player.
+3. Stop the game so that we aren't seeing weird cursor fighting issues.
+
+**After watching (learning outcomes)...**
+
+Elegantly handle displaying and using the Game Over menu when the player dies.
