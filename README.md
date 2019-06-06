@@ -291,3 +291,15 @@ Create a simple game over menu to ensure we can restart the game when the player
 **After watching (learning outcomes)...**
 
 Elegantly handle displaying and using the Game Over menu when the player dies.
+
+
+### 24 Using BroadcastMessage ###
+
+**In this video (objectives)...**
+
+1. Our goal is to have the enemy provoked when shot.
+2. We look at a couple of ways to do this, one of which being BroadcastMessage().
+
+**After watching (learning outcomes)...**
+
+Use BroadcastMessage() to call any methods of a particular name on our Game Object.
