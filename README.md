@@ -303,3 +303,15 @@ Elegantly handle displaying and using the Game Over menu when the player dies.
 **After watching (learning outcomes)...**
 
 Use BroadcastMessage() to call any methods of a particular name on our Game Object.
+
+
+### 25 Early Gameplay Loop ###
+
+**In this video (objectives)...**
+
+1. Tidy up our sandbox and make a bit of level flow.
+2. Tune our Player and enemies so that the game feels the way we want.
+
+**After watching (learning outcomes)...**
+
+Make the game feel like a game with the limited feature set we have at the moment.
