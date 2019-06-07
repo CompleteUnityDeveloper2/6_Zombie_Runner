@@ -634,7 +634,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 239497424}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1905,6 +1905,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576765357480675008, guid: ce89490115bc44540bedec5923df28b8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1576765357480675011, guid: ce89490115bc44540bedec5923df28b8,
         type: 3}
@@ -13163,6 +13168,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Over UI
       objectReference: {fileID: 0}
+    - target: {fileID: 2325727554349383545, guid: 34614b8ae5eff7240abc2e8aab56d5a1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1178298614025890564, guid: 34614b8ae5eff7240abc2e8aab56d5a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17827,7 +17837,7 @@ PrefabInstance:
     - target: {fileID: 8236100241299101932, guid: 366758fbb394d5649a6b423f51848e98,
         type: 3}
       propertyPath: ammoSlots.Array.data[0].ammo
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8236100241299101932, guid: 366758fbb394d5649a6b423f51848e98,
         type: 3}
@@ -21929,6 +21939,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUD UI
       objectReference: {fileID: 0}
+    - target: {fileID: 2325727554349383545, guid: 7fadb93c3bbb83040bab1a6931c507b7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1961643916, guid: 7fadb93c3bbb83040bab1a6931c507b7, type: 3}
       propertyPath: m_havePropertiesChanged
       value: 1
@@ -22974,7 +22989,7 @@ GameObject:
   - component: {fileID: 2052416055}
   - component: {fileID: 2052416057}
   - component: {fileID: 2052416056}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}

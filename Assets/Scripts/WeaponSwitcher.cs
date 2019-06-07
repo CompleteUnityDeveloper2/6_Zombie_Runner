@@ -84,7 +84,7 @@ public class WeaponSwitcher : MonoBehaviour
             if (weaponIndex == currentWeapon)
             {
                 weapon.gameObject.SetActive(true);
-                Ammo ammoSlot = weapon.GetComponent<Weapon>().AmmoSlot(); // Why?
+                Ammo ammoSlot = weapon.GetComponent<Weapon>().AmmoSlot(); 
             }
             else
             {

@@ -6,7 +6,6 @@ using UnityEditor;
 using UnityEngine;
 
 // note: responsible for handling shooting and raycasting
-// rename weapon
 
 public class Weapon : MonoBehaviour
 {
