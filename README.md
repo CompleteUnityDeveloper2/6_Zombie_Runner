@@ -339,3 +339,15 @@ Be clear on what we are about to undertake with our weapon system.
 **After watching (learning outcomes)...**
 
 Clear on how to use a camera's field of view to zoom in and out.
+
+
+### 28 Weapon Zoom - Mouse Sensitivity ###
+
+**In this video (objectives)...**
+
+1. Figure out where to find mouse sensitivity and how to access it.
+2. Create 2 settings for mouse sensitivity - one for zoomed in and one for zoomed out.
+
+**After watching (learning outcomes)...**
+
+Update mouse sensitivity based upon our level of zoom.
