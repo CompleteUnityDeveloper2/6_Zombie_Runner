@@ -326,3 +326,16 @@ Make the game feel like a game with the limited feature set we have at the momen
 **After watching (learning outcomes)...**
 
 Be clear on what we are about to undertake with our weapon system.
+
+
+### 27 Weapon Zoom - Field Of View ###
+
+**In this video (objectives)...**
+
+1. Figure out what would give us a zoomed in effect.
+2. Create a connection to our camera and variables for zoomed in and out FOV.
+3. Create logic that toggles between zoomed in and zoomed out.
+
+**After watching (learning outcomes)...**
+
+Clear on how to use a camera's field of view to zoom in and out.
