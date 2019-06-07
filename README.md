@@ -315,3 +315,14 @@ Use BroadcastMessage() to call any methods of a particular name on our Game Obje
 **After watching (learning outcomes)...**
 
 Make the game feel like a game with the limited feature set we have at the moment.
+
+
+### 26 Weapon System Overview ###
+
+**In this video (objectives)...**
+
+1. Examine Rick's prototype to look at how the weapon switching, ammo system and ammo pickups relate to one another.
+
+**After watching (learning outcomes)...**
+
+Be clear on what we are about to undertake with our weapon system.
