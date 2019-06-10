@@ -353,13 +353,13 @@ Clear on how to use a camera's field of view to zoom in and out.
 Add basic ammo functionality where we decrease our ammo when shooting and can only shoot if we have enough ammo.
 
 
-### 30 Multiple Weapon Types ###
+### 31 Weapon Differentiation ###
 
 **In this video (objectives)...**
 
-1. Dig deep into our nested prefabbing of our player and weapons.
-2. Add another 2 weapons and hook them up so they can shoot.
+1. Create a delay between shots for our weapon.
+2. Tune the damage, range, scope and shot delay for our three weapons.
 
 **After watching (learning outcomes)...**
 
-Understand how to create additional weapons with the correct prefabbing and settings.
+Understand how to create a shooting delay and how to differentiate our 3 weapons.
