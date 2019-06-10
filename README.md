@@ -351,3 +351,15 @@ Clear on how to use a camera's field of view to zoom in and out.
 **After watching (learning outcomes)...**
 
 Add basic ammo functionality where we decrease our ammo when shooting and can only shoot if we have enough ammo.
+
+
+### 30 Multiple Weapon Types ###
+
+**In this video (objectives)...**
+
+1. Dig deep into our nested prefabbing of our player and weapons.
+2. Add another 2 weapons and hook them up so they can shoot.
+
+**After watching (learning outcomes)...**
+
+Understand how to create additional weapons with the correct prefabbing and settings.
