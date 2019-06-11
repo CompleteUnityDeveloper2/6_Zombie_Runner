@@ -363,3 +363,15 @@ Add basic ammo functionality where we decrease our ammo when shooting and can on
 **After watching (learning outcomes)...**
 
 Understand how to create a shooting delay and how to differentiate our 3 weapons.
+
+
+### 32 Set Active Weapon ###
+
+**In this video (objectives)...**
+
+1. Create a foreach loop which loops through our weapons and sets them active or inactive.
+2. Create the framework for the player to be able to select their weapon.
+
+**After watching (learning outcomes)...**
+
+Create the framework for setting weapons active or inactive.
