@@ -375,3 +375,15 @@ Understand how to create a shooting delay and how to differentiate our 3 weapons
 **After watching (learning outcomes)...**
 
 Create the framework for setting weapons active or inactive.
+
+
+### 33 Player Input To Select Weapon ###
+
+**In this video (objectives)...**
+
+1. Create a way for the player to change weapons by pushing the keyboard numbers.
+2. Create a way for players to change weapons by using the scroll wheel.
+
+**After watching (learning outcomes)...**
+
+Give the player multiple ways to change weapons.
