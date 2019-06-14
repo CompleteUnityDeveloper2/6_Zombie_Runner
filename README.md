@@ -387,3 +387,16 @@ Create the framework for setting weapons active or inactive.
 **After watching (learning outcomes)...**
 
 Give the player multiple ways to change weapons.
+
+
+### 34 Public Enum & Private Class ###
+
+**In this video (objectives)...**
+
+1. Tidy up a couple of bugs.
+2. Create AmmoType public enum.
+3. Create AmmoSlot private class.
+
+**After watching (learning outcomes)...**
+
+Have experimented with a public enum and private class.
