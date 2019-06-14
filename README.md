@@ -400,3 +400,15 @@ Give the player multiple ways to change weapons.
 **After watching (learning outcomes)...**
 
 Have experimented with a public enum and private class.
+
+
+### 35 Different Weapon Different Ammo ###
+
+**In this video (objectives)...**
+
+1. Assign our weapon to be a particular ammo type.
+2. Hook everything up so our weapons decrease ammo from a specific ammo slot.
+
+**After watching (learning outcomes)...**
+
+Have specific weapons use specific types of ammo.
