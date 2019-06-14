@@ -412,3 +412,15 @@ Have experimented with a public enum and private class.
 **After watching (learning outcomes)...**
 
 Have specific weapons use specific types of ammo.
+
+
+### 36 Quick Bug Fix Challenge ###
+
+**In this video (objectives)...**
+
+1. Identify why our weapon is staying zoomed.
+2. Challenge to fix the issue.
+
+**After watching (learning outcomes)...**
+
+Practice finding and fixing bugs.
