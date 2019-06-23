@@ -435,3 +435,17 @@ Practice finding and fixing bugs.
 **After watching (learning outcomes)...**
 
 Create a simple pickup framework that can only be triggered by the player.
+
+
+### 38 Ammo Pickup - Part 2 ###
+
+**In this video (objectives)...**
+
+1. Set the value and type of the pickup.
+2. Create a public method to increase ammo amount.
+3. Create prefab variants for each pickup type.
+
+
+**After watching (learning outcomes)...**
+
+Increase specific types of ammo when we collect that an ammo pickup of that type.
