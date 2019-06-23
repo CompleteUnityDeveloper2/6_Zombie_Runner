@@ -424,3 +424,14 @@ Have specific weapons use specific types of ammo.
 **After watching (learning outcomes)...**
 
 Practice finding and fixing bugs.
+
+
+### 37 Ammo Pickup - Part 1 ###
+
+**In this video (objectives)...**
+
+1. Create a game object which is triggered when the player runs through it and destroyed, printing a witty message to the console in the process.
+
+**After watching (learning outcomes)...**
+
+Create a simple pickup framework that can only be triggered by the player.
