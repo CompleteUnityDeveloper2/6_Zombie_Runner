@@ -449,3 +449,17 @@ Create a simple pickup framework that can only be triggered by the player.
 **After watching (learning outcomes)...**
 
 Increase specific types of ammo when we collect that an ammo pickup of that type.
+
+
+### 39 Let's Add A Zombie ###
+
+**In this video (objectives)...**
+
+1. Import enemy character asset.
+2. Hook up new animations to our animator.
+3. Add code to trigger enemy death and stop weird death-related behaviours.
+
+
+**After watching (learning outcomes)...**
+
+Make your game 5 times more awesome by having an enemy who actually looks like an enemy.
