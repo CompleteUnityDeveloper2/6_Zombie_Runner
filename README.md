@@ -489,3 +489,17 @@ Practice hunting down an issue and implementing a solution.
 **After watching (learning outcomes)...**
 
 Create a level design diagram to use as a reference for the level creation.
+
+
+### 42 Add Terrain & Trees ###
+
+**In this video (objectives)...**
+
+1. Add terrain and sculpt it, being sure to add elevation changes.
+2. Add trees.
+3. Add grass texture and mesh.
+
+
+**After watching (learning outcomes)...**
+
+Make our forest look interesting by adding terrain and trees.
