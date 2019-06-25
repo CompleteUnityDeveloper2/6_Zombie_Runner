@@ -503,3 +503,17 @@ Create a level design diagram to use as a reference for the level creation.
 **After watching (learning outcomes)...**
 
 Make our forest look interesting by adding terrain and trees.
+
+
+### 43 ProBuilder For Making Props ###
+
+**In this video (objectives)...**
+
+1. Instal ProBuilder.
+2. Use ProBuilder to make shotgun shells.
+3. Use ProBuilder to make bullets.
+
+
+**After watching (learning outcomes)...**
+
+Get comfortable with ProBuilder by making props.
