@@ -476,3 +476,16 @@ Make your game 5 times more awesome by having an enemy who actually looks like a
 **After watching (learning outcomes)...**
 
 Practice hunting down an issue and implementing a solution.
+
+
+### 41 Flex Your Level Design Muscles ###
+
+**In this video (objectives)...**
+
+1. Create a new scene that will be a more organised level.
+2. Sketch out a level design and import that into the scene to use as a reference diagram.
+
+
+**After watching (learning outcomes)...**
+
+Create a level design diagram to use as a reference for the level creation.
