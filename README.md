@@ -463,3 +463,16 @@ Increase specific types of ammo when we collect that an ammo pickup of that type
 **After watching (learning outcomes)...**
 
 Make your game 5 times more awesome by having an enemy who actually looks like an enemy.
+
+
+### 40 Quick Zombie Attack Challenge ###
+
+**In this video (objectives)...**
+
+1. Figure out why our zombie is not hurting us.
+2. Implement a fix to this problem.
+
+
+**After watching (learning outcomes)...**
+
+Practice hunting down an issue and implementing a solution.
