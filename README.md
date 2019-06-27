@@ -517,3 +517,16 @@ Make our forest look interesting by adding terrain and trees.
 **After watching (learning outcomes)...**
 
 Get comfortable with ProBuilder by making props.
+
+
+### 44 ProBuilder To Make Rooms ###
+
+**In this video (objectives)...**
+
+1. Install ProGrids.
+2. Create the shell for our first room.
+3. Create a separate game object that is the roof.
+
+**After watching (learning outcomes)...**
+
+Comfortable using ProBuilder to make rooms.
