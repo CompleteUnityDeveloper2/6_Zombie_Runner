@@ -530,3 +530,16 @@ Get comfortable with ProBuilder by making props.
 **After watching (learning outcomes)...**
 
 Comfortable using ProBuilder to make rooms.
+
+
+### 45 ProBuilder To Make Levels ###
+
+**In this video (objectives)...**
+
+1. Use ProBuilder's Poly Shape Tool to trace around our entire level sketch.
+2. Flip the normals of our level so we can see the walls on the inside.
+3. Add elevation and link everything up.
+
+**After watching (learning outcomes)...**
+
+Comfortable using ProBuilder to make levels.
