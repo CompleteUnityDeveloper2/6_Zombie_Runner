@@ -543,3 +543,16 @@ Comfortable using ProBuilder to make rooms.
 **After watching (learning outcomes)...**
 
 Comfortable using ProBuilder to make levels.
+
+
+### 46 Adding Textures With ProBuilder ###
+
+**In this video (objectives)...**
+
+1. Import some textures.
+2. Use ProBuilder's Material Editor to add textures.
+3. Use ProBuilder's UV Editor to tweak the look of the textures.
+
+**After watching (learning outcomes)...**
+
+Comfortable using ProBuilder to add textures and materials.
