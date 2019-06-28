@@ -580,3 +580,15 @@ Able to place emissive lights in your scene.
 **After watching (learning outcomes)...**
 
 Create a decaying flashlight.
+
+
+### 49 Create A Battery Pickup ###
+
+**In this video (objectives)...**
+
+1. Create 2 public methods on our flashlight which increase angle and intensity.
+2. Create a battery pickup which calls the 2 public methods.
+
+**After watching (learning outcomes)...**
+
+Create a battery pickup which restores the functionality of our flashlight.
