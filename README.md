@@ -568,3 +568,15 @@ Comfortable using ProBuilder to add textures and materials.
 **After watching (learning outcomes)...**
 
 Able to place emissive lights in your scene.
+
+
+### 48 Create A FlashLight ###
+
+**In this video (objectives)...**
+
+1. Create a flashlight that is attached to the player.
+2. Decay the flashlight angle and intensity over time.
+
+**After watching (learning outcomes)...**
+
+Create a decaying flashlight.
