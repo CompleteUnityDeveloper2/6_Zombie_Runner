@@ -556,3 +556,15 @@ Comfortable using ProBuilder to make levels.
 **After watching (learning outcomes)...**
 
 Comfortable using ProBuilder to add textures and materials.
+
+
+### 47 We Need Some Lights ###
+
+**In this video (objectives)...**
+
+1. Create a light with an emissive material.
+2. Place lights in our scene.
+
+**After watching (learning outcomes)...**
+
+Able to place emissive lights in your scene.
