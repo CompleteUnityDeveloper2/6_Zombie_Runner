@@ -616,3 +616,15 @@ Display the ammo for the currently wielded weapon.
 **After watching (learning outcomes)...**
 
 Provide the player visual feedback for when they receive damage.
+
+
+### 52 Props & Polish ###
+
+**In this video (objectives)...**
+
+1. Download and add props to your game, being sure to use them to make a story.
+2. A challenge for you to make a 5 minute experience that is wow.
+
+**After watching (learning outcomes)...**
+
+Add props and polish your game to make a 5 minute wow.
