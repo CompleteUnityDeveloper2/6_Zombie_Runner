@@ -604,3 +604,15 @@ Create a battery pickup which restores the functionality of our flashlight.
 **After watching (learning outcomes)...**
 
 Display the ammo for the currently wielded weapon.
+
+
+### 51 Damage Received UI ###
+
+**In this video (objectives)...**
+
+1. Add some cool effect for when the player takes damage.
+2. Trigger the UI effect by turning on and off the canvas.
+
+**After watching (learning outcomes)...**
+
+Provide the player visual feedback for when they receive damage.
