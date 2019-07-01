@@ -592,3 +592,15 @@ Create a decaying flashlight.
 **After watching (learning outcomes)...**
 
 Create a battery pickup which restores the functionality of our flashlight.
+
+
+### 50 Display Current Ammo UI ###
+
+**In this video (objectives)...**
+
+1. Tidy up, add enemies, rebake navmesh.
+2. Add code and UI to display the player's ammo for each weapon cycled through.
+
+**After watching (learning outcomes)...**
+
+Display the ammo for the currently wielded weapon.
